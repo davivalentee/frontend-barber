@@ -1,0 +1,50 @@
+:root {
+  font-family: monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0f172a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #0f172a;
+}
+
+select {
+  width: 315px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #0f172a;
+}
+
+button {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 15px;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
